@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import DisplayPost from './components/DisplayPost';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       
        
       <h1> অন্তরজ্বালা  </h1>
+      <DisplayPost />
     </div>
   );
 }
