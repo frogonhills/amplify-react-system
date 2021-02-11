@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DisplayPost from './components/DisplayPost';
+import CreatePost from './components/CreatePost';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       
        
       <h1> অন্তরজ্বালা  </h1>
+      <CreatePost />
       <DisplayPost />
     </div>
   );
