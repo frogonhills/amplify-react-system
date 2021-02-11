@@ -16,5 +16,13 @@
         }
       }
     }
+  },
+  "auth": {
+    "amplifymaster101ba614": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
   }
 }
